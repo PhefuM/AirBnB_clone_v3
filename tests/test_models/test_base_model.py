@@ -106,9 +106,7 @@ class TestBaseModel(unittest.TestCase):
                 self.assertIs(type(uuid), str)
                 self.assertRegex(
                     uuid,
-                    "^[0-9a-f]{8}-[0-9a-f]{4}"
-                    "-[0-9a-f]{4}-[0-9a-f]{4}"
-                    "-[0-9a-f]{12}$",
+                    "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
                 )
         self.assertNotEqual(inst1.id, inst2.id)
 
