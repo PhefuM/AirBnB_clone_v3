@@ -1,4 +1,4 @@
-tabase storage engine using SQLAlchemy with a mysql+mysqldb database
+"""database storage engine using SQLAlchemy with a mysql+mysqldb database
 connection.
 """
 
