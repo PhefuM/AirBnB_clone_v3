@@ -1,4 +1,4 @@
-"""ci	ties.py"""
+"""cities.py"""
 
 from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
